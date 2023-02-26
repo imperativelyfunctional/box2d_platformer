@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="32" height="18" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="62">
+ <tileset firstgid="1" name="terrain" tilewidth="16" tileheight="16" tilecount="242" columns="22">
+  <image source="../images/tilesets/terrain.png" width="352" height="176"/>
+ </tileset>
+ <tileset firstgid="243" name="numbers" tilewidth="16" tileheight="16" tilecount="50" columns="10">
+  <image source="../images/numbers.png" width="160" height="80"/>
+ </tileset>
+ <tileset firstgid="293" name="number_w" tilewidth="16" tileheight="16" tilecount="50" columns="10">
+  <image source="../images/number_w.png" width="160" height="80"/>
+ </tileset>
+ <layer id="1" name="base" width="32" height="18">
+  <data encoding="csv">
+89,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,91,
+111,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,
+111,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,
+111,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,
+111,0,0,0,0,0,0,0,0,0,0,0,0,123,101,102,103,123,0,0,0,0,0,0,0,0,0,0,0,0,0,113,
+111,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,41,41,41,113,
+111,0,0,0,216,194,195,196,216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,
+111,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,
+111,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,13,14,15,35,0,0,0,0,0,0,113,
+111,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,
+111,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,19,20,113,
+111,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,
+111,0,0,0,0,7,8,8,8,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,217,218,113,
+111,0,0,0,0,29,30,30,30,30,30,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,239,240,113,
+111,0,0,7,8,8,8,30,30,30,30,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,9,113,
+111,0,0,29,30,30,30,30,30,30,30,8,8,8,9,0,0,0,0,0,0,0,0,0,0,0,0,7,30,30,31,113,
+111,7,8,9,29,30,30,30,30,30,30,30,30,30,7,8,8,8,8,9,0,0,0,0,0,0,0,51,52,52,53,113,
+133,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,135
+</data>
+ </layer>
+ <layer id="2" name="grass" width="32" height="18">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,35,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,35,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="body">
+  <object id="5" type="left_top_right" x="80" y="192.667" width="110" height="32"/>
+  <object id="6" type="top_left" x="49" y="225" width="30.6667" height="31"/>
+  <object id="7" type="top" x="16.6667" y="257" width="46.6667" height="14.6667"/>
+  <object id="8" type="top_right" x="192" y="241" width="47.3333" height="14.3333"/>
+  <object id="9" type="right" x="176.333" y="225" width="13.6717" height="15"/>
+  <object id="10" type="top_right" x="240.333" y="257.333" width="78.6667" height="13.3333"/>
+  <object id="11" type="top" x="321" y="273" width="95" height="7.66667"/>
+  <object id="12" type="left_top" x="417.333" y="257.333" width="14" height="15"/>
+  <object id="13" type="left_top" x="432.667" y="241" width="15" height="16"/>
+  <object id="14" type="left_top" x="448.667" y="224.667" width="14.6667" height="17.3333"/>
+  <object id="15" type="left_top" x="464.333" y="192.333" width="30.3333" height="30.6667"/>
+  <object id="17" type="spawn" x="30.8054" y="219.171">
+   <point/>
+  </object>
+  <object id="20" type="right" x="4" y="9.5" width="11.5" height="247"/>
+  <object id="21" type="bottom" x="17.5" y="8.5" width="487" height="6.5"/>
+  <object id="22" type="left" x="497.5" y="16" width="6" height="176"/>
+  <object id="23" type="left_bottom_right_top" x="66" y="97.5" width="76" height="12"/>
+  <object id="24" type="left_right_bottom_top" x="209" y="65.5" width="78" height="13"/>
+  <object id="25" type="left_right_top_bottom" x="321.5" y="129.5" width="76.5" height="12.5"/>
+  <object id="27" type="left_top_bottom" x="432.25" y="80.25" width="63.5" height="4.25"/>
+  <object id="28" type="left_top_bottom" x="448.5" y="160.25" width="47.75" height="4.5"/>
+  <object id="29" type="pineapple" x="54.7264" y="166.169">
+   <point/>
+  </object>
+  <object id="30" type="pineapple" x="87.5622" y="164.677">
+   <point/>
+  </object>
+  <object id="31" type="pineapple" x="27.8607" y="52.7363">
+   <point/>
+  </object>
+  <object id="32" type="pineapple" x="88.5572" y="53.2338">
+   <point/>
+  </object>
+  <object id="33" type="cherry" x="214.925" y="39.3035">
+   <point/>
+  </object>
+  <object id="34" type="cherry" x="247.761" y="38.3085">
+   <point/>
+  </object>
+  <object id="35" type="pinepineapple" x="342.289" y="41.791">
+   <point/>
+  </object>
+  <object id="36" type="melon" x="455.721" y="39.3035">
+   <point/>
+  </object>
+  <object id="37" type="banana" x="341.791" y="103.483">
+   <point/>
+  </object>
+  <object id="38" type="banana" x="251.244" y="152.736">
+   <point/>
+  </object>
+  <object id="39" type="pinepineapple" x="294.03" y="181.095">
+   <point/>
+  </object>
+  <object id="40" x="168.657" y="135.821">
+   <point/>
+  </object>
+  <object id="41" type="kiwi" x="168.657" y="135.821">
+   <point/>
+  </object>
+  <object id="42" type="strawberry" x="360.697" y="197.015">
+   <point/>
+  </object>
+  <object id="44" type="cherry" x="121.891" y="146.766">
+   <point/>
+  </object>
+  <object id="45" type="cherry" x="160.697" y="165.174">
+   <point/>
+  </object>
+  <object id="46" type="melon" x="208.955" y="125.871">
+   <point/>
+  </object>
+  <object id="47" type="melon" x="215.423" y="177.612">
+   <point/>
+  </object>
+  <object id="48" type="kiwi" x="279.602" y="204.975">
+   <point/>
+  </object>
+  <object id="49" type="kiwi" x="230.348" y="208.955">
+   <point/>
+  </object>
+  <object id="50" type="orange" x="252.239" y="198.507">
+   <point/>
+  </object>
+  <object id="51" type="orange" x="280.1" y="239.304">
+   <point/>
+  </object>
+  <object id="52" type="strawberry" x="206.468" y="232.338">
+   <point/>
+  </object>
+  <object id="53" type="strawberry" x="256.716" y="239.801">
+   <point/>
+  </object>
+  <object id="54" type="strawberry" x="326.368" y="208.955">
+   <point/>
+  </object>
+  <object id="55" type="apple" x="303.98" y="238.806">
+   <point/>
+  </object>
+  <object id="56" type="apple" x="391.542" y="235.323">
+   <point/>
+  </object>
+  <object id="57" type="apple" x="327.363" y="237.314">
+   <point/>
+  </object>
+  <object id="58" type="apple" x="367.164" y="236.816">
+   <point/>
+  </object>
+  <object id="59" type="apple" x="451.244" y="133.831">
+   <point/>
+  </object>
+  <object id="61" type="apple" x="421.393" y="200.498">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
