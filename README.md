@@ -16,4 +16,4 @@ https://discord.gg/bdSe7hvNb6
 Youtube demo: https://youtu.be/4SUIMqhKsVI
 
 
-![demo](https://github.com/imperativelyfunctional/bullet_hell_4/blob/main/demo.gif)
+![demo](https://github.com/imperativelyfunctional/box2d_platformer/blob/main/demo.gif)
